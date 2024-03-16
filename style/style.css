@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+    margin: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(204, 141, 70);
+    min-height: 150px;
+    padding-top: 40px;
+}
+
+header>h1 {
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: 3em
+    
+}
+
+header>p {
+    text-align: center;
+    margin: auto;
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+main {
+    background-color: #cc8d4660;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    background-color:#2C1E0F;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.288);
+}
+
+
+nav>a {
+    background-color: #2C1E0F;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: .4s;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+    background-color: #9c6a346c;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+article {
+
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+footer {
+    background-color: rgb(59, 136, 180);
+    color: rgb(243, 243, 243);
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+footer>p {
+    margin: 0px;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.795);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(165, 108, 2);
+}
+
+
+footer {
+    background-color: #2C1E0F;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+
+}
+main img.pequena {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+footer strong:hover {
+    text-decoration: underline;
+}
